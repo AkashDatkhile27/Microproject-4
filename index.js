@@ -3,11 +3,11 @@ function dis(val){
     document.getElementById("res").value +=val;
 }
 
-function Clear() {
+function Reset() {
     var inp = document.getElementById('res');
     inp.value = '0';
  }
- function Back(){
+ function Delete(){
     var inp=document.getElementById('res');
     inp.value=inp.value.slice(0,-1)
  }
